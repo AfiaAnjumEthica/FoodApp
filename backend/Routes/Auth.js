@@ -10,6 +10,7 @@ const fetch = require('../middleware/fetchdetails');
 const jwtSecret = "HaHa";
 
 // Test route to verify auth functionality
+// Test route to verify auth functionality
 router.get('/test', async (req, res) => {
     try {
         const dbStatus = await User.db.collection('users').stats();
