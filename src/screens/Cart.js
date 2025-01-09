@@ -90,7 +90,6 @@ export default function Cart() {
 </div>
 //(Sadia Tasnim Fariha's Module ends here)
 
-
         {/* Checkout Button */}
         <div>
           <button className='btn bg-success mt-5' onClick={handleCheckOut}>
