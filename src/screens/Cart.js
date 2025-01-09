@@ -35,7 +35,7 @@ export default function Cart() {
     }
   };
 
-  // Calculate total price
+  // Calculate total price (Sadia Tasnim Fariha's Module starts here)
   let totalPrice = data.reduce((total, food) => {
     // Check if price exists and is a valid number
     if (food.price && !isNaN(Number(food.price))) {
@@ -44,7 +44,7 @@ export default function Cart() {
     return total;
   }, 0);
 
-  console.log('Total Price:', totalPrice);  // Debugging the total price
+  console.log('Total Price:', totalPrice);  // Debugging the total price (Sadia Tasnim Fariha's Module ends here)
 
   return (
     <div>
@@ -82,13 +82,13 @@ export default function Cart() {
           </tbody>
         </table>
         
-        {/* Ensure total price is rendered correctly */}
+        {/* Ensure total price is rendered correctly (Sadia Tasnim Fariha's Module starts here)*/}
         <div>
   <h1 className='fs-2 total-price'>
     Total Price: {totalPrice.toFixed(2)} /-
   </h1>
 </div>
-
+//(Sadia Tasnim Fariha's Module ends here)
 
 
         {/* Checkout Button */}
