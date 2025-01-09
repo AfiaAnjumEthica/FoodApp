@@ -88,7 +88,7 @@ export default function Cart() {
     Total Price: {totalPrice.toFixed(2)} /-
   </h1>
 </div>
-//(Sadia Tasnim Fariha's Module ends here)
+/* (Sadia Tasnim Fariha's Module ends here)*/
 
         {/* Checkout Button */}
         <div>
